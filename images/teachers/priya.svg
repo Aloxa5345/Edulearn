@@ -1,0 +1,67 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="circle"><circle cx="150" cy="150" r="150"/></clipPath>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9333ea;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#5b21b6;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="300" height="300" fill="url(#bg2)"/>
+    <!-- Body / Saree blouse -->
+    <ellipse cx="150" cy="275" rx="95" ry="55" fill="#6b1f8c"/>
+    <rect x="100" y="220" width="100" height="80" fill="#6b1f8c"/>
+    <!-- Saree drape over shoulder -->
+    <ellipse cx="105" cy="235" rx="30" ry="45" fill="#8b2fc9" opacity="0.8"/>
+    <!-- Neck -->
+    <rect x="135" y="185" width="30" height="32" rx="5" fill="#c47f42"/>
+    <!-- Necklace -->
+    <path d="M130,200 Q150,215 170,200" stroke="#FFD700" stroke-width="3" fill="none"/>
+    <circle cx="150" cy="215" r="4" fill="#FFD700"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="152" rx="50" ry="56" fill="#c47f42"/>
+    <!-- Long black hair -->
+    <ellipse cx="150" cy="97" rx="52" ry="28" fill="#0d0d0d"/>
+    <rect x="98" y="90" width="104" height="40" fill="#0d0d0d"/>
+    <!-- Hair flowing down sides -->
+    <ellipse cx="97" cy="150" rx="14" ry="55" fill="#0d0d0d"/>
+    <ellipse cx="203" cy="145" rx="12" ry="50" fill="#0d0d0d"/>
+    <!-- Hair parting - bindi hint -->
+    <line x1="150" y1="90" x2="150" y2="108" stroke="#8B4513" stroke-width="2"/>
+    <!-- Bindi -->
+    <circle cx="150" cy="126" r="5" fill="#cc0000"/>
+    <!-- Eyebrows - curved -->
+    <path d="M120 135 Q135 127 148 132" stroke="#0d0d0d" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M152 132 Q165 127 180 135" stroke="#0d0d0d" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Eyes - almond shaped -->
+    <ellipse cx="132" cy="147" rx="12" ry="8" fill="white"/>
+    <ellipse cx="168" cy="147" rx="12" ry="8" fill="white"/>
+    <!-- Kohl-lined eyes -->
+    <path d="M120,147 Q132,138 144,147 Q132,156 120,147" fill="#1a1a1a" opacity="0.3"/>
+    <path d="M156,147 Q168,138 180,147 Q168,156 156,147" fill="#1a1a1a" opacity="0.3"/>
+    <circle cx="132" cy="148" r="5" fill="#3d2310"/>
+    <circle cx="168" cy="148" r="5" fill="#3d2310"/>
+    <circle cx="133" cy="146" r="2" fill="#0d0d0d"/>
+    <circle cx="169" cy="146" r="2" fill="#0d0d0d"/>
+    <circle cx="135" cy="145" r="1" fill="white"/>
+    <circle cx="171" cy="145" r="1" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="150" cy="162" rx="6" ry="5" fill="#b5692a"/>
+    <circle cx="146" cy="164" r="3" fill="#b5692a"/>
+    <circle cx="154" cy="164" r="3" fill="#b5692a"/>
+    <!-- Nose pin -->
+    <circle cx="146" cy="163" r="2" fill="#FFD700"/>
+    <!-- Lips -->
+    <path d="M136 178 Q150 173 164 178" fill="#cc4444"/>
+    <path d="M136 178 Q150 186 164 178" fill="#b03030"/>
+    <!-- Ears -->
+    <ellipse cx="101" cy="155" rx="9" ry="12" fill="#c47f42"/>
+    <ellipse cx="199" cy="155" rx="9" ry="12" fill="#c47f42"/>
+    <!-- Earrings -->
+    <circle cx="101" cy="162" r="5" fill="#FFD700"/>
+    <circle cx="199" cy="162" r="5" fill="#FFD700"/>
+    <!-- Name Tag -->
+    <rect x="60" y="248" width="180" height="32" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="150" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white">Priya Verma</text>
+  </g>
+</svg>

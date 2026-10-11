@@ -1,0 +1,892 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduLearn – Learn Without Limits</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <i class="bi bi-mortarboard-fill text-primary me-2"></i>EduLearn
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto gap-lg-2">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <div class="d-flex gap-2">
+        <a href="login.html" class="btn btn-outline-primary btn-sm px-3">Log In</a>
+        <a href="signup.html" class="btn btn-primary btn-sm px-3">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero-section d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill mb-3 fs-6">
+          🎓 #1 Online Learning Platform
+        </span>
+        <h1 class="display-4 fw-bold lh-sm mb-4">
+          Learn Without <span class="text-gradient">Limits</span>.<br>Grow Without Boundaries.
+        </h1>
+        <p class="lead text-muted mb-4">
+          Access 500+ expert-led courses in tech, business, design, and more.
+          Learn at your own pace and unlock your full potential.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mb-5">
+          <a href="courses.html" class="btn btn-primary btn-lg px-5 shadow">
+            Explore Courses <i class="bi bi-arrow-right ms-2"></i>
+          </a>
+          <a href="#demo" class="btn btn-outline-secondary btn-lg px-4">
+            <i class="bi bi-play-circle me-2"></i>Watch Demo
+          </a>
+        </div>
+        <div class="d-flex gap-4 flex-wrap">
+          <div class="stat-item">
+            <span class="stat-num" data-target="50000">0</span><span class="stat-num">+</span>
+            <p class="stat-label">Students</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="500">0</span><span class="stat-num">+</span>
+            <p class="stat-label">Courses</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="120">0</span><span class="stat-num">+</span>
+            <p class="stat-label">Instructors</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center" data-aos="fade-left">
+        <div class="hero-img-wrapper position-relative">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=700&q=80"
+               alt="Students learning together"
+               class="img-fluid hero-img"
+               style="border-radius:24px;box-shadow:0 24px 64px rgba(13,110,253,.18);"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1513258496099-48168024aec0?w=700&q=80'" />
+          <div class="floating-card card shadow-lg p-3 d-flex flex-row align-items-center gap-3" id="fc1">
+            <div class="fc-icon bg-success-subtle rounded-circle p-2">
+              <i class="bi bi-check-circle-fill text-success fs-4"></i>
+            </div>
+            <div>
+              <p class="mb-0 fw-semibold small">New Certificate Earned!</p>
+              <p class="mb-0 text-muted" style="font-size:.75rem">Web Development Pro</p>
+            </div>
+          </div>
+          <div class="floating-card card shadow-lg p-3 d-flex flex-row align-items-center gap-3" id="fc2">
+            <div class="fc-icon bg-warning-subtle rounded-circle p-2">
+              <i class="bi bi-star-fill text-warning fs-4"></i>
+            </div>
+            <div>
+              <p class="mb-0 fw-semibold small">Course Rating</p>
+              <p class="mb-0 text-muted" style="font-size:.75rem">4.9 / 5.0 ★★★★★</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TRUSTED BY ========== -->
+<section class="py-4 bg-light border-top border-bottom">
+  <div class="container">
+    <p class="text-center text-muted small mb-3 text-uppercase fw-semibold letter-spacing">Trusted by learners from</p>
+    <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 gap-lg-5 opacity-50">
+      <span class="fs-5 fw-bold">Google</span>
+      <span class="fs-5 fw-bold">Microsoft</span>
+      <span class="fs-5 fw-bold">Amazon</span>
+      <span class="fs-5 fw-bold">Apple</span>
+      <span class="fs-5 fw-bold">Netflix</span>
+      <span class="fs-5 fw-bold">Meta</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CATEGORIES ========== -->
+<section class="py-section" id="categories">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <span class="badge-tag">Browse Categories</span>
+      <h2 class="section-title">Explore Top <span class="text-gradient">Topics</span></h2>
+      <p class="section-sub text-muted">Find courses in any field you're passionate about</p>
+    </div>
+    <div class="row g-3">
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="category-card card h-100 text-center p-4 border-0 shadow-sm">
+          <div class="cat-icon mb-3" style="background:#e0f0ff">
+            <i class="bi bi-code-slash" style="color:#0d6efd"></i>
+          </div>
+          <h6 class="fw-semibold mb-1">Web Development</h6>
+          <small class="text-muted">120 courses</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="category-card card h-100 text-center p-4 border-0 shadow-sm">
+          <div class="cat-icon mb-3" style="background:#fff0e0">
+            <i class="bi bi-palette2" style="color:#fd7e14"></i>
+          </div>
+          <h6 class="fw-semibold mb-1">UI/UX Design</h6>
+          <small class="text-muted">85 courses</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="category-card card h-100 text-center p-4 border-0 shadow-sm">
+          <div class="cat-icon mb-3" style="background:#e8ffe0">
+            <i class="bi bi-graph-up-arrow" style="color:#198754"></i>
+          </div>
+          <h6 class="fw-semibold mb-1">Data Science</h6>
+          <small class="text-muted">95 courses</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="category-card card h-100 text-center p-4 border-0 shadow-sm">
+          <div class="cat-icon mb-3" style="background:#ffe0e0">
+            <i class="bi bi-phone" style="color:#dc3545"></i>
+          </div>
+          <h6 class="fw-semibold mb-1">Mobile Dev</h6>
+          <small class="text-muted">60 courses</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="category-card card h-100 text-center p-4 border-0 shadow-sm">
+          <div class="cat-icon mb-3" style="background:#f0e0ff">
+            <i class="bi bi-shield-lock" style="color:#6f42c1"></i>
+          </div>
+          <h6 class="fw-semibold mb-1">Cybersecurity</h6>
+          <small class="text-muted">45 courses</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="category-card card h-100 text-center p-4 border-0 shadow-sm">
+          <div class="cat-icon mb-3" style="background:#e0f8ff">
+            <i class="bi bi-cloud" style="color:#0dcaf0"></i>
+          </div>
+          <h6 class="fw-semibold mb-1">Cloud Computing</h6>
+          <small class="text-muted">55 courses</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="category-card card h-100 text-center p-4 border-0 shadow-sm">
+          <div class="cat-icon mb-3" style="background:#fff8e0">
+            <i class="bi bi-briefcase" style="color:#ffc107"></i>
+          </div>
+          <h6 class="fw-semibold mb-1">Business</h6>
+          <small class="text-muted">70 courses</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="category-card card h-100 text-center p-4 border-0 shadow-sm">
+          <div class="cat-icon mb-3" style="background:#ffe8f0">
+            <i class="bi bi-camera-video" style="color:#d63384"></i>
+          </div>
+          <h6 class="fw-semibold mb-1">Photography</h6>
+          <small class="text-muted">40 courses</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FEATURED COURSES ========== -->
+<section class="py-section bg-light" id="courses">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <span class="badge-tag">Featured</span>
+      <h2 class="section-title">Most Popular <span class="text-gradient">Courses</span></h2>
+      <p class="section-sub text-muted">Hand-picked top-rated courses loved by thousands of students</p>
+    </div>
+
+    <!-- Filter Tabs -->
+    <ul class="nav nav-pills justify-content-center mb-5 gap-2" id="courseFilter">
+      <li class="nav-item"><button class="nav-link active" data-filter="all">All</button></li>
+      <li class="nav-item"><button class="nav-link" data-filter="dev">Development</button></li>
+      <li class="nav-item"><button class="nav-link" data-filter="design">Design</button></li>
+      <li class="nav-item"><button class="nav-link" data-filter="data">Data Science</button></li>
+      <li class="nav-item"><button class="nav-link" data-filter="business">Business</button></li>
+    </ul>
+
+    <div class="row g-4" id="coursesGrid">
+
+      <!-- Course Card 1 -->
+      <div class="col-sm-6 col-lg-4 course-item" data-category="dev">
+        <div class="course-card card h-100 border-0 shadow-sm overflow-hidden">
+          <div class="course-thumb position-relative">
+            <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=600&q=80" class="card-img-top" alt="Web Dev" />
+            <span class="badge-level badge bg-primary">Beginner</span>
+          </div>
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <span class="badge bg-primary-subtle text-primary small">Development</span>
+            </div>
+            <h5 class="card-title fw-bold mb-2">Complete Web Development Bootcamp</h5>
+            <p class="card-text text-muted small mb-3">Master HTML, CSS, JS, React & Node.js from scratch with real projects.</p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <img src="https://i.pravatar.cc/32?img=1" class="rounded-circle" width="28" height="28" alt="instructor" />
+              <small class="text-muted">Rahul Sharma</small>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <div class="star-rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+                <small class="text-muted ms-1">4.8 (2.4k)</small>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <span class="fw-bold fs-5 text-primary">₹4,199</span>
+              <div class="d-flex gap-2 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>42h</span>
+                <span><i class="bi bi-people me-1"></i>12k</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0 px-4 pb-4">
+            <a href="courses.html" class="btn btn-outline-primary w-100">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 2 -->
+      <div class="col-sm-6 col-lg-4 course-item" data-category="design">
+        <div class="course-card card h-100 border-0 shadow-sm overflow-hidden">
+          <div class="course-thumb position-relative">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80" class="card-img-top" alt="UI/UX" />
+            <span class="badge-level badge bg-warning text-dark">Intermediate</span>
+          </div>
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <span class="badge bg-warning-subtle text-warning small">Design</span>
+            </div>
+            <h5 class="card-title fw-bold mb-2">UI/UX Design Masterclass</h5>
+            <p class="card-text text-muted small mb-3">Learn Figma, user research, prototyping & design thinking from pros.</p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <img src="https://i.pravatar.cc/32?img=5" class="rounded-circle" width="28" height="28" alt="instructor" />
+              <small class="text-muted">Amit Patel</small>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <div class="star-rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <small class="text-muted ms-1">4.9 (1.8k)</small>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <span class="fw-bold fs-5 text-primary">₹3,349</span>
+              <div class="d-flex gap-2 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>28h</span>
+                <span><i class="bi bi-people me-1"></i>9k</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0 px-4 pb-4">
+            <a href="courses.html" class="btn btn-outline-primary w-100">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 3 -->
+      <div class="col-sm-6 col-lg-4 course-item" data-category="data">
+        <div class="course-card card h-100 border-0 shadow-sm overflow-hidden">
+          <div class="course-thumb position-relative">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" class="card-img-top" alt="Data Science" />
+            <span class="badge-level badge bg-success">Advanced</span>
+          </div>
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <span class="badge bg-success-subtle text-success small">Data Science</span>
+            </div>
+            <h5 class="card-title fw-bold mb-2">Python for Data Science & ML</h5>
+            <p class="card-text text-muted small mb-3">Deep dive into Python, Pandas, NumPy, Scikit-learn & TensorFlow.</p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <img src="https://i.pravatar.cc/32?img=9" class="rounded-circle" width="28" height="28" alt="instructor" />
+              <small class="text-muted">Dr. Priya Verma</small>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <div class="star-rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+                <small class="text-muted ms-1">4.7 (3.1k)</small>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <span class="fw-bold fs-5 text-primary">₹4,999</span>
+              <div class="d-flex gap-2 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>56h</span>
+                <span><i class="bi bi-people me-1"></i>15k</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0 px-4 pb-4">
+            <a href="courses.html" class="btn btn-outline-primary w-100">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 4 -->
+      <div class="col-sm-6 col-lg-4 course-item" data-category="business">
+        <div class="course-card card h-100 border-0 shadow-sm overflow-hidden">
+          <div class="course-thumb position-relative">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80" class="card-img-top" alt="Business" />
+            <span class="badge-level badge bg-primary">Beginner</span>
+          </div>
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <span class="badge bg-primary-subtle text-primary small">Business</span>
+            </div>
+            <h5 class="card-title fw-bold mb-2">Digital Marketing Mastery</h5>
+            <p class="card-text text-muted small mb-3">SEO, social media, email marketing & paid ads — all in one course.</p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <img src="https://i.pravatar.cc/32?img=12" class="rounded-circle" width="28" height="28" alt="instructor" />
+              <small class="text-muted">Sneha Reddy</small>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <div class="star-rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <small class="text-muted ms-1">4.5 (980)</small>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <span class="fw-bold fs-5 text-primary">₹3,749</span>
+              <div class="d-flex gap-2 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>32h</span>
+                <span><i class="bi bi-people me-1"></i>7k</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0 px-4 pb-4">
+            <a href="courses.html" class="btn btn-outline-primary w-100">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 5 -->
+      <div class="col-sm-6 col-lg-4 course-item" data-category="dev">
+        <div class="course-card card h-100 border-0 shadow-sm overflow-hidden">
+          <div class="course-thumb position-relative">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80" class="card-img-top" alt="JavaScript" />
+            <span class="badge-level badge bg-warning text-dark">Intermediate</span>
+          </div>
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <span class="badge bg-primary-subtle text-primary small">Development</span>
+            </div>
+            <h5 class="card-title fw-bold mb-2">Advanced JavaScript & React</h5>
+            <p class="card-text text-muted small mb-3">Closures, async/await, hooks, context, Redux & modern React patterns.</p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <img src="https://i.pravatar.cc/32?img=15" class="rounded-circle" width="28" height="28" alt="instructor" />
+              <small class="text-muted">Vikram Singh</small>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <div class="star-rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <small class="text-muted ms-1">4.9 (4.2k)</small>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <span class="fw-bold fs-5 text-primary">₹4,599</span>
+              <div class="d-flex gap-2 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>48h</span>
+                <span><i class="bi bi-people me-1"></i>18k</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0 px-4 pb-4">
+            <a href="courses.html" class="btn btn-outline-primary w-100">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 6 -->
+      <div class="col-sm-6 col-lg-4 course-item" data-category="data">
+        <div class="course-card card h-100 border-0 shadow-sm overflow-hidden">
+          <div class="course-thumb position-relative">
+            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" class="card-img-top" alt="AI" />
+            <span class="badge-level badge bg-success">Advanced</span>
+          </div>
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <span class="badge bg-success-subtle text-success small">Data Science</span>
+            </div>
+            <h5 class="card-title fw-bold mb-2">AI & Deep Learning with PyTorch</h5>
+            <p class="card-text text-muted small mb-3">Build neural networks, CNNs, RNNs & transformer models from scratch.</p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <img src="https://i.pravatar.cc/32?img=20" class="rounded-circle" width="28" height="28" alt="instructor" />
+              <small class="text-muted">Dr. Arjun Mehta</small>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <div class="star-rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+                <small class="text-muted ms-1">4.8 (2.7k)</small>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <span class="fw-bold fs-5 text-primary">₹5,849</span>
+              <div class="d-flex gap-2 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>64h</span>
+                <span><i class="bi bi-people me-1"></i>8k</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0 px-4 pb-4">
+            <a href="courses.html" class="btn btn-outline-primary w-100">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /row -->
+
+    <div class="text-center mt-5">
+      <a href="courses.html" class="btn btn-primary btn-lg px-5">
+        View All Courses <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HOW IT WORKS ========== -->
+<section class="py-section" id="how">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <span class="badge-tag">Process</span>
+      <h2 class="section-title">How <span class="text-gradient">EduLearn</span> Works</h2>
+      <p class="section-sub text-muted">Start learning in three simple steps</p>
+    </div>
+    <div class="row g-4 text-center">
+      <div class="col-md-4">
+        <div class="step-card p-4">
+          <div class="step-number">01</div>
+          <div class="step-icon mx-auto mb-3">
+            <i class="bi bi-person-plus-fill"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Create Your Account</h5>
+          <p class="text-muted">Sign up for free and set up your learning profile in under a minute.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="step-card p-4">
+          <div class="step-number">02</div>
+          <div class="step-icon mx-auto mb-3">
+            <i class="bi bi-search"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Find Your Course</h5>
+          <p class="text-muted">Browse 500+ courses and choose the ones that match your goals.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="step-card p-4">
+          <div class="step-number">03</div>
+          <div class="step-icon mx-auto mb-3">
+            <i class="bi bi-trophy-fill"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Learn & Get Certified</h5>
+          <p class="text-muted">Complete courses at your pace and earn industry-recognized certificates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIALS ========== -->
+<section class="py-section bg-light" id="testimonials">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <span class="badge-tag">Testimonials</span>
+      <h2 class="section-title">What Our <span class="text-gradient">Students</span> Say</h2>
+      <p class="section-sub text-muted">Real stories from real learners</p>
+    </div>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="testimonial-card card border-0 shadow-sm p-4 h-100">
+                <div class="stars mb-3">
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <p class="text-muted mb-4">"EduLearn completely changed my career. The Web Dev Bootcamp was incredibly well-structured and the projects helped me land my first job as a developer!"</p>
+                <div class="d-flex align-items-center gap-3">
+                  <img src="https://i.pravatar.cc/48?img=32" class="rounded-circle" width="48" height="48" alt="student" />
+                  <div>
+                    <p class="fw-semibold mb-0">Michael Torres</p>
+                    <small class="text-muted">Frontend Developer @ Spotify</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-none d-md-block">
+              <div class="testimonial-card card border-0 shadow-sm p-4 h-100">
+                <div class="stars mb-3">
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <p class="text-muted mb-4">"The Data Science course was exactly what I needed. Dr. Chen explains complex concepts in a way that's easy to understand. I now work at a Fortune 500 company!"</p>
+                <div class="d-flex align-items-center gap-3">
+                  <img src="https://i.pravatar.cc/48?img=47" class="rounded-circle" width="48" height="48" alt="student" />
+                  <div>
+                    <p class="fw-semibold mb-0">Priya Sharma</p>
+                    <small class="text-muted">Data Analyst @ Amazon</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-none d-lg-block">
+              <div class="testimonial-card card border-0 shadow-sm p-4 h-100">
+                <div class="stars mb-3">
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-half text-warning"></i>
+                </div>
+                <p class="text-muted mb-4">"Amazing platform! I completed the UI/UX Design course in a month and it helped me build a portfolio that impressed recruiters. Totally worth every penny."</p>
+                <div class="d-flex align-items-center gap-3">
+                  <img src="https://i.pravatar.cc/48?img=25" class="rounded-circle" width="48" height="48" alt="student" />
+                  <div>
+                    <p class="fw-semibold mb-0">Emma Wilson</p>
+                    <small class="text-muted">UX Designer @ Adobe</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="testimonial-card card border-0 shadow-sm p-4 h-100">
+                <div class="stars mb-3">
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <p class="text-muted mb-4">"The React course is phenomenal. I went from zero to building full-stack applications. The instructor's explanations and code examples are top-notch."</p>
+                <div class="d-flex align-items-center gap-3">
+                  <img src="https://i.pravatar.cc/48?img=60" class="rounded-circle" width="48" height="48" alt="student" />
+                  <div>
+                    <p class="fw-semibold mb-0">Carlos Mendez</p>
+                    <small class="text-muted">Full-Stack Dev @ Microsoft</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-none d-md-block">
+              <div class="testimonial-card card border-0 shadow-sm p-4 h-100">
+                <div class="stars mb-3">
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <p class="text-muted mb-4">"I learned digital marketing from scratch and started my own agency within 6 months. EduLearn gave me the confidence and skills to make it happen."</p>
+                <div class="d-flex align-items-center gap-3">
+                  <img src="https://i.pravatar.cc/48?img=44" class="rounded-circle" width="48" height="48" alt="student" />
+                  <div>
+                    <p class="fw-semibold mb-0">Sophie Brown</p>
+                    <small class="text-muted">Marketing Agency Owner</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-indicators position-relative mt-4">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active bg-primary border-0" style="width:30px;height:6px;border-radius:3px"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" class="bg-secondary border-0" style="width:30px;height:6px;border-radius:3px"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRICING ========== -->
+<section class="py-section" id="pricing">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <span class="badge-tag">Pricing</span>
+      <h2 class="section-title">Simple, Transparent <span class="text-gradient">Pricing</span></h2>
+      <p class="section-sub text-muted">Choose the plan that works best for you</p>
+    </div>
+    <div class="row justify-content-center g-4">
+
+      <div class="col-md-6 col-lg-4">
+        <div class="pricing-card card h-100 border-0 shadow-sm p-4">
+          <div class="plan-badge mb-3">Free</div>
+          <h3 class="fw-bold mb-1">₹0</h3>
+          <p class="text-muted small mb-4">Forever free</p>
+          <ul class="plan-features list-unstyled mb-4">
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Access to 50+ free courses</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Community forum access</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Basic progress tracking</li>
+            <li><i class="bi bi-x-circle-fill text-danger me-2"></i>Certificates</li>
+            <li><i class="bi bi-x-circle-fill text-danger me-2"></i>Offline downloads</li>
+            <li><i class="bi bi-x-circle-fill text-danger me-2"></i>Priority support</li>
+          </ul>
+          <a href="signup.html" class="btn btn-outline-primary w-100">Get Started Free</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="pricing-card pricing-popular card h-100 border-0 shadow-lg p-4 position-relative">
+          <span class="popular-badge">Most Popular</span>
+          <div class="plan-badge mb-3 bg-primary text-white">Pro</div>
+          <h3 class="fw-bold mb-1 text-white">₹1,599<span class="fs-6 fw-normal">/mo</span></h3>
+          <p class="mb-4" style="color:rgba(255,255,255,.7)">Billed annually</p>
+          <ul class="plan-features list-unstyled mb-4">
+            <li><i class="bi bi-check-circle-fill me-2" style="color:#a5d8ff"></i>All 500+ courses</li>
+            <li><i class="bi bi-check-circle-fill me-2" style="color:#a5d8ff"></i>Verified certificates</li>
+            <li><i class="bi bi-check-circle-fill me-2" style="color:#a5d8ff"></i>Offline downloads</li>
+            <li><i class="bi bi-check-circle-fill me-2" style="color:#a5d8ff"></i>Priority support</li>
+            <li><i class="bi bi-check-circle-fill me-2" style="color:#a5d8ff"></i>1-on-1 mentoring (2h/mo)</li>
+            <li><i class="bi bi-x-circle-fill me-2" style="color:rgba(255,255,255,.4)"></i>Team access</li>
+          </ul>
+          <a href="signup.html" class="btn btn-light w-100 fw-semibold">Start Pro Trial</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="pricing-card card h-100 border-0 shadow-sm p-4">
+          <div class="plan-badge mb-3">Team</div>
+          <h3 class="fw-bold mb-1">₹3,999<span class="fs-6 fw-normal">/mo</span></h3>
+          <p class="text-muted small mb-4">Per seat, billed annually</p>
+          <ul class="plan-features list-unstyled mb-4">
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Everything in Pro</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Team dashboard</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Progress reports</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Custom learning paths</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Dedicated account manager</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>SSO & API access</li>
+          </ul>
+          <a href="signup.html" class="btn btn-outline-primary w-100">Contact Sales</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA BANNER ========== -->
+<section class="cta-section py-5">
+  <div class="container">
+    <div class="cta-card text-center text-white p-5 rounded-4">
+      <h2 class="display-6 fw-bold mb-3">Ready to Start Your Learning Journey?</h2>
+      <p class="lead mb-4 opacity-75">Join 50,000+ students already learning on EduLearn. No credit card required.</p>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <a href="signup.html" class="btn btn-light btn-lg px-5 fw-semibold">Get Started Free</a>
+        <a href="courses.html" class="btn btn-outline-light btn-lg px-5">Browse Courses</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section class="py-section bg-light" id="contact">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <span class="badge-tag">Contact</span>
+      <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+      <p class="section-sub text-muted">We'd love to hear from you</p>
+    </div>
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-5">
+        <div class="contact-info">
+          <div class="d-flex gap-3 mb-4">
+            <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+            <div>
+              <h6 class="fw-semibold mb-1">Email Us</h6>
+              <p class="text-muted mb-0">support@edulearn.in</p>
+            </div>
+          </div>
+          <div class="d-flex gap-3 mb-4">
+            <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+            <div>
+              <h6 class="fw-semibold mb-1">Call Us</h6>
+              <p class="text-muted mb-0">+91 98765 43210</p>
+            </div>
+          </div>
+          <div class="d-flex gap-3 mb-4">
+            <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+            <div>
+              <h6 class="fw-semibold mb-1">Visit Us</h6>
+              <p class="text-muted mb-0">123 Education Nagar, Koramangala, Bengaluru, Karnataka - 560034</p>
+            </div>
+          </div>
+          <div class="d-flex gap-3 mt-4">
+            <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label class="form-label fw-medium">First Name</label>
+              <input type="text" class="form-control" placeholder="John" required />
+            </div>
+            <div class="col-sm-6">
+              <label class="form-label fw-medium">Last Name</label>
+              <input type="text" class="form-control" placeholder="Doe" required />
+            </div>
+            <div class="col-12">
+              <label class="form-label fw-medium">Email Address</label>
+              <input type="email" class="form-control" placeholder="john@example.com" required />
+            </div>
+            <div class="col-12">
+              <label class="form-label fw-medium">Subject</label>
+              <select class="form-select">
+                <option>General Inquiry</option>
+                <option>Course Support</option>
+                <option>Billing</option>
+                <option>Partnerships</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label fw-medium">Message</label>
+              <textarea class="form-control" rows="4" placeholder="Tell us how we can help..." required></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary btn-lg px-5">
+                Send Message <i class="bi bi-send ms-2"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer bg-dark text-white py-5">
+  <div class="container">
+    <div class="row g-4 mb-4">
+      <div class="col-lg-4">
+        <a class="navbar-brand fw-bold fs-4 text-white mb-3 d-block" href="index.html">
+          <i class="bi bi-mortarboard-fill text-primary me-2"></i>EduLearn
+        </a>
+        <p class="text-secondary mb-4">Empowering learners worldwide with high-quality, accessible online education. Learn. Grow. Succeed.</p>
+        <div class="d-flex gap-2">
+          <a href="#" class="social-btn-sm"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-btn-sm"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="social-btn-sm"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="social-btn-sm"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 class="fw-semibold text-white mb-3">Company</h6>
+        <ul class="list-unstyled footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 class="fw-semibold text-white mb-3">Courses</h6>
+        <ul class="list-unstyled footer-links">
+          <li><a href="courses.html">All Courses</a></li>
+          <li><a href="#">Web Dev</a></li>
+          <li><a href="#">Data Science</a></li>
+          <li><a href="#">Design</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 class="fw-semibold text-white mb-3">Support</h6>
+        <ul class="list-unstyled footer-links">
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 class="fw-semibold text-white mb-3">Legal</h6>
+        <ul class="list-unstyled footer-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="border-secondary" />
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <p class="text-secondary mb-0 small">© 2026 EduLearn. All rights reserved.</p>
+      <div class="d-flex gap-3">
+        <img src="https://cdn.jsdelivr.net/npm/payment-icons@1.1.0/min/flat/visa.svg" height="24" alt="Visa" />
+        <img src="https://cdn.jsdelivr.net/npm/payment-icons@1.1.0/min/flat/mastercard.svg" height="24" alt="Mastercard" />
+        <img src="https://cdn.jsdelivr.net/npm/payment-icons@1.1.0/min/flat/paypal.svg" height="24" alt="PayPal" />
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top btn btn-primary" id="backToTop" aria-label="Back to top">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<!-- Toast Notification -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="contactToast" class="toast align-items-center text-bg-success border-0" role="alert">
+    <div class="d-flex">
+      <div class="toast-body">
+        <i class="bi bi-check-circle me-2"></i>Message sent successfully!
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+</body>
+</html>

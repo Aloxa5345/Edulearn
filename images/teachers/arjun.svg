@@ -1,0 +1,59 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="circle"><circle cx="150" cy="150" r="150"/></clipPath>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#475569;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="300" height="300" fill="url(#bg7)"/>
+    <!-- Body - formal -->
+    <ellipse cx="150" cy="278" rx="95" ry="52" fill="#1e293b"/>
+    <rect x="100" y="215" width="100" height="85" fill="#1e293b"/>
+    <!-- Suit -->
+    <polygon points="150,207 118,235 150,228" fill="#334155"/>
+    <polygon points="150,207 182,235 150,228" fill="#334155"/>
+    <rect x="143" y="207" width="14" height="50" fill="white"/>
+    <!-- Tie blue -->
+    <polygon points="150,209 144,226 150,255 156,226" fill="#3b82f6"/>
+    <!-- Neck -->
+    <rect x="136" y="183" width="28" height="30" rx="5" fill="#b07840"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="150" rx="50" ry="57" fill="#b07840"/>
+    <!-- Clean cut short hair -->
+    <ellipse cx="150" cy="96" rx="52" ry="26" fill="#111"/>
+    <rect x="98" y="93" width="104" height="30" fill="#111"/>
+    <ellipse cx="102" cy="112" rx="10" ry="16" fill="#111"/>
+    <ellipse cx="198" cy="112" rx="10" ry="16" fill="#111"/>
+    <!-- Hair fade sides -->
+    <rect x="98" y="108" width="12" height="25" rx="5" fill="#111"/>
+    <rect x="190" y="108" width="12" height="25" rx="5" fill="#111"/>
+    <!-- Eyebrows -->
+    <path d="M117 132 Q133 124 148 129" stroke="#111" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M152 129 Q167 124 183 132" stroke="#111" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <ellipse cx="130" cy="146" rx="12" ry="8" fill="white"/>
+    <ellipse cx="170" cy="146" rx="12" ry="8" fill="white"/>
+    <circle cx="131" cy="147" r="5" fill="#1a0800"/>
+    <circle cx="171" cy="147" r="5" fill="#1a0800"/>
+    <circle cx="132" cy="145" r="2" fill="#0a0a0a"/>
+    <circle cx="172" cy="145" r="2" fill="#0a0a0a"/>
+    <circle cx="134" cy="144" r="1" fill="white"/>
+    <circle cx="174" cy="144" r="1" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="150" cy="162" rx="7" ry="6" fill="#9a6530"/>
+    <circle cx="145" cy="165" r="3.5" fill="#9a6530"/>
+    <circle cx="155" cy="165" r="3.5" fill="#9a6530"/>
+    <!-- Clean shave / light stubble -->
+    <ellipse cx="150" cy="185" rx="30" ry="10" fill="#9a6530" opacity="0.2"/>
+    <!-- Smile -->
+    <path d="M134 178 Q150 190 166 178" stroke="#7a3520" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Ears -->
+    <ellipse cx="101" cy="155" rx="9" ry="12" fill="#b07840"/>
+    <ellipse cx="199" cy="155" rx="9" ry="12" fill="#b07840"/>
+    <!-- Name Tag -->
+    <rect x="60" y="250" width="180" height="32" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="150" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white">Arjun Mehta</text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="circle"><circle cx="150" cy="150" r="150"/></clipPath>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0e5f75;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="300" height="300" fill="url(#bg3)"/>
+    <!-- Body -->
+    <ellipse cx="150" cy="275" rx="90" ry="55" fill="#065a6e"/>
+    <rect x="105" y="218" width="90" height="82" fill="#065a6e"/>
+    <!-- T-shirt / polo -->
+    <polygon points="150,208 122,232 178,232" fill="white" opacity="0.9"/>
+    <!-- Neck -->
+    <rect x="136" y="184" width="28" height="30" rx="5" fill="#d4915a"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="152" rx="50" ry="56" fill="#d4915a"/>
+    <!-- Short curly black hair -->
+    <ellipse cx="150" cy="98" rx="52" ry="26" fill="#111"/>
+    <rect x="98" y="95" width="104" height="32" fill="#111"/>
+    <ellipse cx="102" cy="120" rx="10" ry="18" fill="#111"/>
+    <ellipse cx="198" cy="120" rx="10" ry="18" fill="#111"/>
+    <!-- Curly texture -->
+    <circle cx="120" cy="96" r="8" fill="#111"/>
+    <circle cx="140" cy="93" r="8" fill="#111"/>
+    <circle cx="160" cy="93" r="8" fill="#111"/>
+    <circle cx="180" cy="96" r="8" fill="#111"/>
+    <!-- Eyebrows -->
+    <path d="M118 134 Q133 126 147 131" stroke="#111" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M153 131 Q167 126 182 134" stroke="#111" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <ellipse cx="131" cy="147" rx="11" ry="8" fill="white"/>
+    <ellipse cx="169" cy="147" rx="11" ry="8" fill="white"/>
+    <circle cx="132" cy="148" r="5" fill="#2d1810"/>
+    <circle cx="170" cy="148" r="5" fill="#2d1810"/>
+    <circle cx="133" cy="146" r="2" fill="#0d0d0d"/>
+    <circle cx="171" cy="146" r="2" fill="#0d0d0d"/>
+    <circle cx="135" cy="145" r="1" fill="white"/>
+    <circle cx="173" cy="145" r="1" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="150" cy="163" rx="7" ry="5" fill="#bf7e40"/>
+    <circle cx="145" cy="166" r="3.5" fill="#bf7e40"/>
+    <circle cx="155" cy="166" r="3.5" fill="#bf7e40"/>
+    <!-- Smile with teeth -->
+    <path d="M135 178 Q150 190 165 178" fill="#cc5533"/>
+    <path d="M137 179 Q150 185 163 179" fill="white"/>
+    <!-- Light beard stubble -->
+    <ellipse cx="150" cy="185" rx="28" ry="12" fill="#b87040" opacity="0.3"/>
+    <!-- Ears -->
+    <ellipse cx="101" cy="156" rx="9" ry="12" fill="#d4915a"/>
+    <ellipse cx="199" cy="156" rx="9" ry="12" fill="#d4915a"/>
+    <!-- Name Tag -->
+    <rect x="60" y="248" width="180" height="32" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="150" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white">Amit Patel</text>
+  </g>
+</svg>

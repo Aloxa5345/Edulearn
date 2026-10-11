@@ -1,0 +1,66 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="circle"><circle cx="150" cy="150" r="150"/></clipPath>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#78350f;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="300" height="300" fill="url(#bg6)"/>
+    <!-- Body / salwar kameez -->
+    <ellipse cx="150" cy="278" rx="95" ry="52" fill="#92400e"/>
+    <rect x="100" y="215" width="100" height="85" fill="#92400e"/>
+    <!-- Dupatta / chunni -->
+    <path d="M200,215 Q220,240 210,280 L150,280 L150,230 Z" fill="#b45309" opacity="0.6"/>
+    <!-- Neck -->
+    <rect x="136" y="184" width="28" height="30" rx="5" fill="#d2956a"/>
+    <!-- Mangalsutra -->
+    <path d="M130,198 Q150,212 170,198" stroke="#111" stroke-width="2" fill="none"/>
+    <circle cx="150" cy="212" r="3" fill="#111"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="151" rx="51" ry="57" fill="#d2956a"/>
+    <!-- Long straight hair with side parting -->
+    <ellipse cx="150" cy="97" rx="52" ry="27" fill="#0a0a0a"/>
+    <rect x="98" y="90" width="104" height="38" fill="#0a0a0a"/>
+    <!-- Long hair down sides -->
+    <ellipse cx="97" cy="155" rx="13" ry="55" fill="#0a0a0a"/>
+    <ellipse cx="203" cy="148" rx="11" ry="50" fill="#0a0a0a"/>
+    <!-- Hair end curl -->
+    <ellipse cx="97" cy="210" rx="10" ry="15" fill="#0a0a0a"/>
+    <!-- Bindi orange -->
+    <circle cx="150" cy="125" r="5" fill="#FF4500"/>
+    <!-- Eyebrows -->
+    <path d="M119 134 Q134 126 148 131" stroke="#0a0a0a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M152 131 Q166 126 181 134" stroke="#0a0a0a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <ellipse cx="131" cy="147" rx="11" ry="8" fill="white"/>
+    <ellipse cx="169" cy="147" rx="11" ry="8" fill="white"/>
+    <circle cx="132" cy="148" r="5" fill="#2d1000"/>
+    <circle cx="170" cy="148" r="5" fill="#2d1000"/>
+    <circle cx="133" cy="146" r="2" fill="#0a0a0a"/>
+    <circle cx="171" cy="146" r="2" fill="#0a0a0a"/>
+    <circle cx="135" cy="145" r="1" fill="white"/>
+    <circle cx="173" cy="145" r="1" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="150" cy="163" rx="6" ry="5" fill="#c07840"/>
+    <circle cx="146" cy="165" r="3" fill="#c07840"/>
+    <circle cx="154" cy="165" r="3" fill="#c07840"/>
+    <!-- Nose ring -->
+    <circle cx="155" cy="163" r="3" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+    <!-- Lips smile -->
+    <path d="M136 177 Q150 173 164 177" fill="#e05a3a"/>
+    <path d="M136 177 Q150 186 164 177" fill="#c0402a"/>
+    <!-- Ears -->
+    <ellipse cx="100" cy="154" rx="9" ry="12" fill="#d2956a"/>
+    <ellipse cx="200" cy="154" rx="9" ry="12" fill="#d2956a"/>
+    <!-- Long drop earrings -->
+    <circle cx="100" cy="156" r="5" fill="#FFD700"/>
+    <rect x="97" y="161" width="6" height="12" rx="3" fill="#FFD700" opacity="0.8"/>
+    <circle cx="200" cy="156" r="5" fill="#FFD700"/>
+    <rect x="197" y="161" width="6" height="12" rx="3" fill="#FFD700" opacity="0.8"/>
+    <!-- Name Tag -->
+    <rect x="60" y="250" width="180" height="32" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="150" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white">Kavita Joshi</text>
+  </g>
+</svg>

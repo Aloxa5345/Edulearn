@@ -1,0 +1,61 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="circle"><circle cx="150" cy="150" r="150"/></clipPath>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16a34a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#064e24;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="300" height="300" fill="url(#bg5)"/>
+    <!-- Body - formal suit -->
+    <ellipse cx="150" cy="278" rx="95" ry="52" fill="#1a2e1a"/>
+    <rect x="100" y="215" width="100" height="85" fill="#1a2e1a"/>
+    <!-- Suit lapels -->
+    <polygon points="150,208 120,235 150,228" fill="#222"/>
+    <polygon points="150,208 180,235 150,228" fill="#222"/>
+    <!-- Tie -->
+    <polygon points="150,210 143,228 150,260 157,228" fill="#16a34a"/>
+    <!-- White shirt -->
+    <rect x="143" y="210" width="14" height="50" fill="white"/>
+    <!-- Neck -->
+    <rect x="136" y="183" width="28" height="30" rx="5" fill="#8B5A2B"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="150" rx="50" ry="56" fill="#8B5A2B"/>
+    <!-- Turban - Sikh style pagdi -->
+    <ellipse cx="150" cy="95" rx="62" ry="38" fill="#FF6600"/>
+    <ellipse cx="150" cy="88" rx="58" ry="30" fill="#FF8C00"/>
+    <!-- Turban folds -->
+    <path d="M90,100 Q150,75 210,100" stroke="#E65C00" stroke-width="3" fill="none"/>
+    <path d="M92,108 Q150,83 208,108" stroke="#E65C00" stroke-width="3" fill="none"/>
+    <path d="M95,116 Q150,92 205,116" stroke="#E65C00" stroke-width="3" fill="none"/>
+    <!-- Turban center brooch -->
+    <circle cx="150" cy="90" r="8" fill="#FFD700"/>
+    <circle cx="150" cy="90" r="5" fill="#FF6600"/>
+    <!-- Beard - Sikh style full beard -->
+    <ellipse cx="150" cy="190" rx="42" ry="28" fill="#1a0a00"/>
+    <path d="M108,165 Q150,210 192,165" fill="#1a0a00"/>
+    <!-- Eyebrows thick -->
+    <path d="M115 133 Q133 123 148 129" stroke="#1a0a00" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M152 129 Q167 123 185 133" stroke="#1a0a00" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <ellipse cx="130" cy="146" rx="12" ry="9" fill="white"/>
+    <ellipse cx="170" cy="146" rx="12" ry="9" fill="white"/>
+    <circle cx="131" cy="147" r="5.5" fill="#1a0800"/>
+    <circle cx="171" cy="147" r="5.5" fill="#1a0800"/>
+    <circle cx="132" cy="145" r="2" fill="#0a0a0a"/>
+    <circle cx="172" cy="145" r="2" fill="#0a0a0a"/>
+    <circle cx="134" cy="144" r="1" fill="white"/>
+    <circle cx="174" cy="144" r="1" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="150" cy="162" rx="8" ry="6" fill="#7a4820"/>
+    <!-- Mustache blending into beard -->
+    <path d="M130 172 Q150 178 170 172" fill="#1a0a00"/>
+    <!-- Ears -->
+    <ellipse cx="101" cy="155" rx="8" ry="12" fill="#8B5A2B"/>
+    <ellipse cx="199" cy="155" rx="8" ry="12" fill="#8B5A2B"/>
+    <!-- Name Tag -->
+    <rect x="60" y="250" width="180" height="32" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="150" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white">Vikram Singh</text>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="circle"><circle cx="150" cy="150" r="150"/></clipPath>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a56db;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0e3a8c;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#circle)">
+    <!-- Background -->
+    <rect width="300" height="300" fill="url(#bg1)"/>
+    <!-- Shirt / Body -->
+    <ellipse cx="150" cy="270" rx="90" ry="60" fill="#1e3a5f"/>
+    <rect x="100" y="220" width="100" height="80" fill="#1e3a5f"/>
+    <!-- Collar / Shirt -->
+    <polygon points="150,210 125,230 175,230" fill="white"/>
+    <polygon points="150,210 130,240 150,235" fill="#e8e8e8"/>
+    <polygon points="150,210 170,240 150,235" fill="#e8e8e8"/>
+    <!-- Neck -->
+    <rect x="135" y="185" width="30" height="30" rx="5" fill="#c68642"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="155" rx="52" ry="58" fill="#c68642"/>
+    <!-- Hair - black Indian hair -->
+    <ellipse cx="150" cy="100" rx="54" ry="30" fill="#1a1a1a"/>
+    <rect x="96" y="95" width="108" height="35" rx="5" fill="#1a1a1a"/>
+    <!-- Side hair -->
+    <ellipse cx="100" cy="130" rx="12" ry="20" fill="#1a1a1a"/>
+    <ellipse cx="200" cy="130" rx="12" ry="20" fill="#1a1a1a"/>
+    <!-- Eyebrows -->
+    <path d="M120 135 Q135 128 148 133" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M152 133 Q165 128 180 135" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <ellipse cx="132" cy="148" rx="10" ry="8" fill="white"/>
+    <ellipse cx="168" cy="148" rx="10" ry="8" fill="white"/>
+    <circle cx="133" cy="149" r="5" fill="#3d2b1f"/>
+    <circle cx="169" cy="149" r="5" fill="#3d2b1f"/>
+    <circle cx="134" cy="147" r="2" fill="#1a1a1a"/>
+    <circle cx="170" cy="147" r="2" fill="#1a1a1a"/>
+    <circle cx="136" cy="146" r="1" fill="white"/>
+    <circle cx="172" cy="146" r="1" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="150" cy="163" rx="7" ry="5" fill="#b5732e"/>
+    <circle cx="145" cy="165" r="3.5" fill="#b5732e"/>
+    <circle cx="155" cy="165" r="3.5" fill="#b5732e"/>
+    <!-- Mustache - Indian style -->
+    <path d="M133 175 Q150 182 167 175" stroke="#1a1a1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Mouth / Smile -->
+    <path d="M138 183 Q150 192 162 183" stroke="#8B4513" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Ears -->
+    <ellipse cx="99" cy="158" rx="9" ry="13" fill="#c68642"/>
+    <ellipse cx="201" cy="158" rx="9" ry="13" fill="#c68642"/>
+    <!-- Glasses - Professor look -->
+    <rect x="117" y="140" width="26" height="18" rx="5" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+    <rect x="157" y="140" width="26" height="18" rx="5" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+    <line x1="143" y1="149" x2="157" y2="149" stroke="#1a1a1a" stroke-width="2"/>
+    <line x1="106" y1="149" x2="117" y2="149" stroke="#1a1a1a" stroke-width="2"/>
+    <line x1="183" y1="149" x2="192" y2="149" stroke="#1a1a1a" stroke-width="2"/>
+    <!-- Name Tag -->
+    <rect x="60" y="248" width="180" height="32" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="150" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white">Rahul Sharma</text>
+  </g>
+</svg>
